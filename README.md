@@ -1,6 +1,6 @@
 # IntelliSketch — Online Drawing & Diagram Tool
 
-> UI/UX Design Screens — Figma Prototype
+**Figma:** [View Prototype →](https://www.figma.com/design/yQUdNt8hlrPEZAyJtAdqRQ/IntelliSketch---All-Screens?node-id=0-1&t=F63ifwW3HxAyQnJX-1)
 
 A browser-based drawing and diagramming tool that combines the simplicity of a paint canvas with the power of structured UML diagramming — no installation required.
 
