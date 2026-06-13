@@ -16,60 +16,17 @@ These are UI/UX design mockups only. No code or functional implementation is inc
 
 ## Screens Overview
 
-### Authentication
+## Screens
 
 | Screen | Description |
 |--------|-------------|
-| **Login** | Centered card with OAuth (Google & GitHub) and email/password login. Full-width primary CTA button with purple gradient. |
-| **Sign Up** | Extends the login card with Full Name and Confirm Password fields. Terms of Service checkbox gates the primary action. |
-
-Both screens share the same card container with a tab-switch component for seamless transitions between login and registration.
-
----
-
-### Dashboard
-
-A post-login landing page featuring:
-
-- **Template Gallery** — Quick-start templates including Basic Diagram, Blank Drawing, Flowchart, Wireframe, Organization Chart, and Mind Map.
-- **Drawing History** — Tabbed view for Recent, Favorites, and Shared with Me, each showing drawing name, storage path, and last modified date.
-
----
-
-### Drawing Canvas — Basic Shapes
-
-The core product screen, designed around three zones:
-
-- **Left Panel** — Searchable grid of 21 Basic Shapes (Rectangle, Circle, Hexagon, Cube, Diamond, and more)
-- **Canvas** — Light dot-grid on white for alignment cues without visual noise
-- **Right Design Panel** — Context-aware controls for Position & Size (X, Y, W, H), Fill color, Opacity, Stroke, Shadow, and Blur. A Layers tab collapses into the same panel slot.
-
-A page navigator at the bottom supports multi-page documents with Previous, Next, and Add Page controls.
-
----
-
-### UML Shape Libraries
-
-Accessed via **More Shapes**, three UML sub-libraries are available:
-
-#### UML Activity Diagram
-Shapes following OMG UML 2.x notation: Action, Decision, Merge Node, Initial Node, Final Node, Fork Node, Join Node, Swimlane, Note. Canvas switches to a ruled white-on-gray stage for precision placement.
-
-#### UML Component Diagram
-Structural modeling shapes: Component, Provided Interface (lollipop), Required Interface (socket), Association, Package, Note, Directed Association, Dependency. Toolbar context-shifts on selection to show text formatting and diagram tools.
-
-#### UML State Machine Diagram
-Behavioral modeling shapes: State, State with Internal Transitions, Composite State, Submachine State, Initial State, Final State, Choice, Note. Includes alignment tools, connector mode, and a zoom slider in the status bar.
-
----
-
-### Save As
-
-Backstage-panel layout modeled after Microsoft Office's file management:
-
-- **Left Menu** — Full file operations list: Home, New, Open, Info, Save, Save As, Print, Share, Export, Close, Account, Options
-- **Center Column** — Storage locations grouped into Personal (OneDrive) and Other Locations (This PC, Browse)
-- **Right Panel** — Inline folder picker (Documents, Desktop) without triggering a native OS dialog
+| **Login / Sign Up** | OAuth (Google, GitHub) and email/password auth. Shared card with tab-switch navigation. |
+| **Dashboard** | Template gallery and drawing history (Recent, Favorites, Shared). |
+| **Canvas — Basic Shapes** | 21-shape searchable panel, dot-grid canvas, right-side Design & Layers panel. |
+| **Canvas — UML Activity** | OMG UML 2.x Activity shapes: Action, Decision, Fork, Join, Swimlane, and more. |
+| **Canvas — UML Component** | Component, Provided/Required Interface, Dependency, Package, and connectors. |
+| **Canvas — UML State Machine** | State, Composite State, Submachine, Initial/Final State, Choice, and more. |
+| **Save As** | Backstage-style file panel with OneDrive and local storage locations. |
 
 ---
 
